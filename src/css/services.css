@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --green: #00b5fe;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid var(--green);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+    color: var(--black);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    padding-top: 7rem;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+header nav a:hover {
+    color: var(--green);
+}
+
+#service-details {
+    padding: 5rem 2rem; /* Adjusted padding for the service section */
+    max-width: 800px; /* Maximum width for the service content */
+    margin: 10rem auto; /* Center the service section vertically */
+    background: white; /* Background for the section */
+    border-radius: 1rem; /* Rounded corners */
+    box-shadow: var(--box-shadow); /* Subtle shadow for depth */
+}
+
+#service-details h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem; /* Heading size */
+    letter-spacing: .2rem; /* Adjusted letter spacing */
+}
+
+#service-content {
+    text-align: center; /* Center the service content */
+    padding: 2rem;
+}
+
+#service-content h3 {
+    color: var(--green); /* Green color for service title */
+    font-size: 2.5rem; /* Service title size */
+    margin-bottom: 1rem; /* Spacing below title */
+}
+
+#service-content p {
+    color: var(--light-color);
+    font-size: 1.6rem; /* Description font size */
+    line-height: 1.8;
+}

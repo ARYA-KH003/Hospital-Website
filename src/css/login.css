@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --green: #00b5fe;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid var(--green);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+    color: var(--black);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    padding-top: 7rem;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+header nav a:hover {
+    color: var(--green);
+}
+
+.login {
+    padding: 5rem 2rem; /* Adjusted padding for the login section */
+    max-width: 400px; /* Centered login form */
+    margin: 10rem auto; /* Center the login section vertically */
+    background: white; /* Background for the form */
+    border-radius: 1rem; /* Rounded corners */
+    box-shadow: var(--box-shadow); /* Subtle shadow for depth */
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem; /* Reduced heading size for login */
+    letter-spacing: .2rem; /* Adjusted letter spacing */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 2rem; /* Spacing between form elements */
+}
+
+.form-group label {
+    font-size: 1.5rem; /* Increased label size */
+    color: var(--black);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem; /* Padding for input fields */
+    font-size: 1.5rem; /* Input text size */
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.form-group a {
+    font-size: 1.4rem;
+    color: var(--green);
+    margin-top: 3rem;
+    display: inline-block;
+}
+
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem; /* Adjusted button padding */
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+    transition: background .3s, color .3s; /* Smooth transitions */
+}
+
+.btn:hover {
+    background: var(--green);
+    color: #fff;
+}

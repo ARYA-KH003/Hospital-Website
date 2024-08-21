@@ -1,0 +1,8 @@
+# Ignore the entire data directory
+data/
+
+# Ignore all .sock files
+*.sock
+
+# Ignore all .cnf files
+*.cnf

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --green: #00b5fe;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid var(--green);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: var(--green);
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #f5f5f5;
+    color: var(--black);
+    line-height: 1.6;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--green);
+}
+
+.edit-booking-title {
+    margin-top: 5rem;
+
+}
+
+form {
+    background: #fff;
+    padding: 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    width: 80%;
+    max-width: 500px;
+}
+
+form .box {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    color: var(--black);
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    background: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+form .box:focus {
+    border-color: var(--green);
+}
+
+form .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    background: var(--green);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background .3s;
+    margin-top: 1rem;
+}
+
+form .btn:hover {
+    background: #138a71;
+}
+

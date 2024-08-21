@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --green: #00b5fe;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid var(--green);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: var(--green);
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #f5f5f5;
+    color: var(--black);
+    line-height: 1.6;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--green);
+}
+
+/* Header Styles */
+
+
+/* Profile Section Styles */
+.user-profile {
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.profile-section {
+    flex: 1;
+    min-width: 45%;
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.profile-section h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:  var(--green);
+}
+
+.profile-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-section label {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+    color: #555;
+}
+
+.profile-section input[type="text"],
+.profile-section input[type="email"],
+.profile-section input[type="password"],
+.profile-section input[type="tel"],
+.profile-section textarea {
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.profile-section input[type="text"]:focus,
+.profile-section input[type="email"]:focus,
+.profile-section input[type="password"]:focus,
+.profile-section input[type="tel"]:focus,
+.profile-section textarea:focus {
+    border-color: #16a085;
+    background: #fff;
+}
+
+.profile-section .btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background: var(--green);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.profile-section .btn:hover {
+    background: #138a71;
+}
+

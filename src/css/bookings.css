@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --green: #00b5fe;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid var(--green);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: var(--green);
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #f5f5f5;
+    color: var(--black);
+    line-height: 1.6;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1.title1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--green);
+}
+
+.booking-list {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+thead {
+    background-color: var(--green);
+    color: #fff;
+}
+
+thead th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody td {
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: var(--black);
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td a.btn {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    color: #fff;
+    background-color: var(--green);
+    border-radius: .5rem;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s;
+    font-size: 1.4rem;
+}
+
+td a.btn:hover {
+    background-color: #138a71;
+}
+
+td a.btn.delete-btn {
+    background-color: #e74c3c;
+}
+
+td a.btn.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Form Styles */
+#edit-section {
+    width: 90%;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+#edit-section h2 {
+    margin-bottom: 2rem;
+    color: var(--green);
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#edit-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-section form label {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--black);
+}
+
+#edit-section form input {
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+#edit-section form input:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0.5rem rgba(0, 181, 254, 0.3);
+}
+
+#edit-section form button.btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background-color: var(--green);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#edit-section form button.btn:hover {
+    background-color: #138a71;
+}
