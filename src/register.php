@@ -53,5 +53,8 @@ require('DBconnection.php');
             <input type="submit" value="Register Now" class="btn"/>
         </div>
     </form>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>

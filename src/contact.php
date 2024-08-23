@@ -23,15 +23,7 @@ require('DBconnection.php')
 
 <section class="contact" id="contact"> 
 
-    <h1 class="heading">
-        <span>c</span>
-        <span>o</span>
-        <span>n</span>
-        <span>t</span>
-        <span>a</span>
-        <span>c</span>
-        <span>t</span>
-    </h1>
+    <h1 class="heading">CONTACT</h1>
 
     <div class="row">
 
@@ -63,11 +55,13 @@ require('DBconnection.php')
             <a href="tel:+393423286520"> <i class="fas fa-phone"></i> +39 342 328 6520 </a>
             <a href="mailto:khsrya03d22z224r@studenti.unime.it"> <i class="fas fa-envelope"></i> khsrya03d22z224r@studenti.unime.it </a>
             <a href="mailto:aryakhosravi75@gmail.com"> <i class="fas fa-envelope"></i> aryakhosravi75@gmail.com </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Messina, Italy - 98122 </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Messina,+Italy+98122" target="_blank">  <i class="fas fa-map-marker-alt"></i> Messina, Italy - 98122 </a>
         </div>
     </div>
 
 </section>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>

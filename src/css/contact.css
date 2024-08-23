@@ -15,7 +15,6 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-transform: capitalize;
     transition: all .2s ease-out;
     text-decoration: none;
 }
@@ -72,7 +71,7 @@ header nav a:hover {
     text-align: center;
     padding-bottom: 2rem;
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--green);
     font-size: 4rem; /* Heading size */
     letter-spacing: .3rem; /* Letter spacing */
 }

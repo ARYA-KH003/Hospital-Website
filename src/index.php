@@ -350,7 +350,6 @@ require('DBconnection.php')
                  <a href="https://twitter.com" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
                  <a href="https://www.instagram.com/__itsarya/" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
                  <a href="https://www.linkedin.com/in/arya-khosravi" target="_blank"> <i class="fab fa-linkedin"></i> linkedin </a>
-                 <a href="https://pinterest.com"> <i class="fab fa-pinterest" target="_blank"></i> pinterest </a>
             </div>
 
         </div>
@@ -362,23 +361,6 @@ require('DBconnection.php')
 </div>
 
 <!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

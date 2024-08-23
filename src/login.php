@@ -122,5 +122,8 @@ ob_end_flush(); // Flush output buffer and send output to the browser
     </section>
     <!-- login section ends -->
 
+    <script src="js/script.js"></script>
+
+
 </body>
 </html>

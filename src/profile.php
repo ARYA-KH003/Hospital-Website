@@ -138,6 +138,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['change_password'])) {
 </section>
 
 <!--custom js file link -->
-<script src="script3.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
