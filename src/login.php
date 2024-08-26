@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-require('DBconnection.php'); // Ensure this file contains the correct database connection details
+require('DBconnection.php'); 
 
 // Function to sanitize user input
 function sanitize($data) {
@@ -87,7 +87,7 @@ ob_end_flush(); // Flush output buffer and send output to the browser
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - ARYAcare</title>
-    <link rel="stylesheet" href="css/login.css"> <!-- Link to your login.css -->
+    <link rel="stylesheet" href="css/login.css"> 
 </head>
 <body>
 

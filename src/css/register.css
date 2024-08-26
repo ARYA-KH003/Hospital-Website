@@ -58,24 +58,6 @@ body {
     padding-top: 7rem;
 }
 
-h1.heading {
-    text-align: center;
-    padding: 2rem;
-    font-size: 4rem;
-    color: var(--green);
-    position: relative;
-    margin: 0 auto;
-}
-
-h1.heading span {
-    display: inline-block;
-    transition: color 0.3s ease-in-out;
-}
-
-h1.heading:hover span {
-    color: var(--black);
-}
-
 form {
     max-width: 400px;
     margin: 5rem auto;

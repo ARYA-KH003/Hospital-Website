@@ -27,10 +27,6 @@ require('DBconnection.php')
 
     <div class="row">
 
-        <div class="image">
-            <img src="../image/c-1.png" alt=""> <!-- Adjust this path if necessary -->
-        </div>
-
         <form action="process_contact.php" method="POST">
             <div class="inputBox">
                 <input type="text" name="name" placeholder="name" required>

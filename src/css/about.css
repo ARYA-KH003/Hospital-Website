@@ -60,12 +60,12 @@ header nav a:hover {
 }
 
 .about {
-    padding: 5rem 2rem; /* Padding for the about section */
-    max-width: 1200px; /* Maximum width for the section */
-    margin: 10rem auto; /* Center the section */
-    background: white; /* Background color for the section */
-    border-radius: 1rem; /* Rounded corners */
-    box-shadow: var(--box-shadow); /* Subtle shadow for depth */
+    padding: 5rem 2rem; 
+    max-width: 1200px; 
+    margin: 10rem auto; 
+    background: white; 
+    border-radius: 1rem; 
+    box-shadow: var(--box-shadow); 
 }
 
 .heading {
@@ -73,31 +73,31 @@ header nav a:hover {
     padding-bottom: 2rem;
     text-transform: uppercase;
     color: var(--black);
-    font-size: 4rem; /* Heading size */
-    letter-spacing: .3rem; /* Letter spacing */
+    font-size: 4rem; 
+    letter-spacing: .3rem; 
 }
 
 .row {
     display: flex;
     align-items: center;
-    flex-wrap: wrap; /* Wrap items on smaller screens */
-    gap: 2rem; /* Space between content */
+    flex-wrap: wrap; 
+    gap: 2rem; 
 }
 
 .content {
-    flex: 1 1 100%; /* Full width on larger screens */
-    text-align: center; /* Center align content */
+    flex: 1 1 100%; 
+    text-align: center; 
 }
 
 .content h3 {
     color: var(--black);
-    font-size: 2.5rem; /* Heading size for content */
-    margin-bottom: 1rem; /* Space below heading */
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
 }
 
 .content p {
     color: var(--light-color);
-    padding: 1rem 0; /* Padding above and below paragraphs */
-    font-size: 1.6rem; /* Paragraph font size */
-    line-height: 1.8; /* Line height for readability */
+    padding: 1rem 0; 
+    font-size: 1.6rem; 
+    line-height: 1.8;
 }

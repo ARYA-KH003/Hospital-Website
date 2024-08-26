@@ -59,12 +59,12 @@ header nav a:hover {
 }
 
 .login {
-    padding: 5rem 2rem; /* Adjusted padding for the login section */
-    max-width: 400px; /* Centered login form */
-    margin: 10rem auto; /* Center the login section vertically */
-    background: white; /* Background for the form */
-    border-radius: 1rem; /* Rounded corners */
-    box-shadow: var(--box-shadow); /* Subtle shadow for depth */
+    padding: 5rem 2rem; 
+    max-width: 400px; 
+    margin: 10rem auto; 
+    background: white; 
+    border-radius: 1rem; 
+    box-shadow: var(--box-shadow); 
 }
 
 .heading {
@@ -72,8 +72,8 @@ header nav a:hover {
     padding-bottom: 2rem;
     text-transform: uppercase;
     color: var(--black);
-    font-size: 3rem; /* Reduced heading size for login */
-    letter-spacing: .2rem; /* Adjusted letter spacing */
+    font-size: 3rem; 
+    letter-spacing: .2rem; 
 }
 
 .login-form {
@@ -82,18 +82,18 @@ header nav a:hover {
 }
 
 .form-group {
-    margin-bottom: 2rem; /* Spacing between form elements */
+    margin-bottom: 2rem; 
 }
 
 .form-group label {
-    font-size: 1.5rem; /* Increased label size */
+    font-size: 1.5rem; 
     color: var(--black);
 }
 
 .form-group input {
     width: 100%;
-    padding: 1rem; /* Padding for input fields */
-    font-size: 1.5rem; /* Input text size */
+    padding: 1rem; 
+    font-size: 1.5rem; 
     border: var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -114,7 +114,7 @@ header nav a:hover {
 
 .btn {
     display: inline-block;
-    padding: 1rem 2rem; /* Adjusted button padding */
+    padding: 1rem 2rem; 
     border: var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -122,7 +122,7 @@ header nav a:hover {
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
-    transition: background .3s, color .3s; /* Smooth transitions */
+    transition: background .3s, color .3s; 
 }
 
 .btn:hover {

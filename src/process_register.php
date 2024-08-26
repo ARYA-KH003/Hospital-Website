@@ -3,12 +3,10 @@ session_start();
 
 require('DBconnection.php');
 
-
 function sanitize($data) {
     global $conn;
     return mysqli_real_escape_string($conn, htmlspecialchars($data));
 }
-
 
 function emailExists($email) {
     global $conn;
@@ -17,7 +15,6 @@ function emailExists($email) {
     $result = $conn->query($sql);
     return $result->num_rows > 0;
 }
-
 
 function validatePassword($password) {
     return true; 
@@ -37,7 +34,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: Password does not meet requirements.";
         exit();
     }
-
 
     $firstname = sanitize($_POST['firstname']);
     $middlename = sanitize($_POST['middlename']);

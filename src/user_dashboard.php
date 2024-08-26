@@ -227,7 +227,7 @@ $email = $_SESSION['email'];
     
             <div class="box">
                 <img src="image/doctor2.jpg" alt="">
-                <h3>Adeeb Hamidi</h3>
+                <h3>Hassan Saeed</h3>
                 <span>Expert Doctor</span>
                 <div class="share">
                     <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank" aria-label="Facebook"></a>
@@ -239,7 +239,7 @@ $email = $_SESSION['email'];
     
             <div class="box">
                 <img src="image/doctor3.jpg" alt="">
-                <h3>Mojib Rabin</h3>
+                <h3>navid najafi</h3>
                 <span>Expert Doctor</span>
                 <div class="share">
                     <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank" aria-label="Facebook"></a>
@@ -263,7 +263,7 @@ $email = $_SESSION['email'];
     
             <div class="box">
                 <img src="image/doctor5.jpg" alt="">
-                <h3>Yoshan Mendis</h3>
+                <h3>MHassan Mansouri</h3>
                 <span>Expert Doctor</span>
                 <div class="share">
                     <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank" aria-label="Facebook"></a>

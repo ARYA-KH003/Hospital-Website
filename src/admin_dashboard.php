@@ -7,13 +7,11 @@ if (!isset($_SESSION['admin_id'])) {
     exit();
 }
 
-// Handle Delete User Request
 if (isset($_GET['delete_user_id'])) {
     $user_id = $_GET['delete_user_id'];
     $query = "DELETE FROM users WHERE id = $user_id";
     mysqli_query($conn, $query);
 
-    // Optionally, delete related appointments
     $appointment_query = "DELETE FROM appointments WHERE email = (SELECT email FROM users WHERE id = $user_id)";
     mysqli_query($conn, $appointment_query);
 
@@ -21,7 +19,6 @@ if (isset($_GET['delete_user_id'])) {
     exit();
 }
 
-// Handle Delete Appointment Request
 if (isset($_GET['delete_appointment_id'])) {
     $appointment_id = $_GET['delete_appointment_id'];
     $query = "DELETE FROM appointments WHERE id = $appointment_id";
@@ -31,7 +28,6 @@ if (isset($_GET['delete_appointment_id'])) {
     exit();
 }
 
-// Handle Edit User Request
 if (isset($_GET['edit_user_id'])) {
     $user_id = $_GET['edit_user_id'];
     $query = "SELECT * FROM users WHERE id = $user_id";
@@ -55,7 +51,6 @@ if (isset($_GET['edit_user_id'])) {
     }
 }
 
-// Handle Edit Appointment Request
 if (isset($_GET['edit_appointment_id'])) {
     $appointment_id = $_GET['edit_appointment_id'];
     $query = "SELECT * FROM appointments WHERE id = $appointment_id";

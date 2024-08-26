@@ -9,7 +9,7 @@
 }
 
 *{
-    font-family: 'Poppins', sans-serif;   /*question*/
+    font-family: 'Poppins', sans-serif;   
     margin:0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
@@ -141,9 +141,9 @@ section{
 
 .home .image img {
     padding-top: 2rem;
-    width: 400px; /* or any desired width */
-    height: 400px; /* or any desired height */
-    object-fit: cover; /* Ensure the image covers the set dimensions without distortion */
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
 }
 
 .home .content{
@@ -406,12 +406,5 @@ section{
 }
 
 .footer .box-container .box a[href="mailto:khsrya03d22z224r@studenti.unime.it"] {
-    font-size: 1.2rem; /* Adjust font size as needed */
+    font-size: 1.2rem; 
 }
-
-
-
-
-
-
-

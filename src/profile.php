@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['change_password'])) {
 </head>
 <body>
 <header>
-        <h1>ARYAcare - Login</h1>
+        <h1>ARYAcare - Profile</h1>
         <nav>
             <a href="bookings.php">Bookings</a>
             <a href="user_dashboard.php">Home</a>

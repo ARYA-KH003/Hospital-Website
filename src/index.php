@@ -9,10 +9,10 @@ require('DBconnection.php')
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARYAcare-Hospital</title>
 
-    <!-- font awesome cdn link  -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -50,7 +50,7 @@ require('DBconnection.php')
     <section class="home" id="home">
 
         <div class="image">
-            <img src="image/home-img.gif" alt="">
+            <img src="image/home-img.gif" alt="ARYAcare :)">
         </div>
     
         <div class="content">
@@ -166,7 +166,7 @@ require('DBconnection.php')
     <div class="row">
 
         <div class="image">
-            <img src="image/about-img.gif" alt="">
+            <img src="image/about-img.gif" alt="ARYAcare is down :(">
         </div>
 
         <div class="content">
@@ -207,7 +207,7 @@ require('DBconnection.php')
     
             <div class="box">
                 <img src="image/doctor2.jpg" alt="">
-                <h3>Adeeb Hamidi</h3>
+                <h3>Hassan Saeed</h3>
                 <span>Expert Doctor</span>
                 <div class="share">
                     <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank" aria-label="Facebook"></a>
@@ -219,7 +219,7 @@ require('DBconnection.php')
     
             <div class="box">
                 <img src="image/doctor3.jpg" alt="">
-                <h3>Mojib Rabin</h3>
+                <h3>navid najafi</h3>
                 <span>Expert Doctor</span>
                 <div class="share">
                     <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank" aria-label="Facebook"></a>
@@ -243,7 +243,7 @@ require('DBconnection.php')
     
             <div class="box">
                 <img src="image/doctor5.jpg" alt="">
-                <h3>Yoshan Mendis</h3>
+                <h3>MHassan Mansouri</h3>
                 <span>Expert Doctor</span>
                 <div class="share">
                     <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank" aria-label="Facebook"></a>
@@ -362,7 +362,6 @@ require('DBconnection.php')
 
 <!-- footer section ends -->
 
-<!-- custom js file link  -->
 <script src="js/script.js"></script>
 
 </body>

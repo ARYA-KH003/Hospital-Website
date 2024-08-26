@@ -68,7 +68,7 @@ $result = mysqli_query($conn, $sql);
 </head>
 <body>
     <header>
-        <h1>ARYAcare - Login</h1>
+        <h1>ARYAcare - Bookings</h1>
         <nav>
             <a href="bookings.php">Bookings</a>
             <a href="user_dashboard.php">Home</a>
@@ -138,6 +138,8 @@ $result = mysqli_query($conn, $sql);
         </form>
     </section>
     <?php endif; ?>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>

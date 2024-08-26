@@ -60,12 +60,12 @@ header nav a:hover {
 }
 
 #service-details {
-    padding: 5rem 2rem; /* Adjusted padding for the service section */
-    max-width: 800px; /* Maximum width for the service content */
-    margin: 10rem auto; /* Center the service section vertically */
-    background: white; /* Background for the section */
-    border-radius: 1rem; /* Rounded corners */
-    box-shadow: var(--box-shadow); /* Subtle shadow for depth */
+    padding: 5rem 2rem; 
+    max-width: 800px; 
+    margin: 10rem auto;
+    background: white; 
+    border-radius: 1rem; 
+    box-shadow: var(--box-shadow);
 }
 
 #service-details h2 {
@@ -73,23 +73,23 @@ header nav a:hover {
     padding-bottom: 2rem;
     text-transform: uppercase;
     color: var(--black);
-    font-size: 3rem; /* Heading size */
-    letter-spacing: .2rem; /* Adjusted letter spacing */
+    font-size: 3rem; 
+    letter-spacing: .2rem; 
 }
 
 #service-content {
-    text-align: center; /* Center the service content */
+    text-align: center; 
     padding: 2rem;
 }
 
 #service-content h3 {
-    color: var(--green); /* Green color for service title */
-    font-size: 2.5rem; /* Service title size */
-    margin-bottom: 1rem; /* Spacing below title */
+    color: var(--green); 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
 }
 
 #service-content p {
     color: var(--light-color);
-    font-size: 1.6rem; /* Description font size */
+    font-size: 1.6rem; 
     line-height: 1.8;
 }

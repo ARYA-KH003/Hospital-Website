@@ -19,8 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($conn->query($sql) === TRUE) {
             echo "<script>
-                alert('Message sent successfully!');
-                window.location.href='contact.php'; // Change this to the appropriate page
+                alert('Message sent successfully to Arya!');
+                window.location.href='contact.php';
             </script>";
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "<script>
             alert('All fields are required.');
-            window.history.back(); // This will take the user back to the form page
+            window.history.back();
         </script>";
     }
 
